@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { updateProduct } from "../features/products/productsSlice";
 import { useDispatch } from "react-redux";
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.js';
 
 function EditPopup({ product, onClose, onSave }) {
   const [formData, setFormData] = useState({
